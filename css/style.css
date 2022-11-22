@@ -178,7 +178,7 @@ header .icons #menu-bars {
     color: #fff;
     cursor: pointer;
     top: 2rem;
-    right: 3rem;
+    right: 50rem;
     font-size: 5rem;
 }
 
@@ -444,7 +444,7 @@ header .icons #menu-bars {
 
 .review .slide {
     padding: 2rem;
-    box-shadow: var(--box-shadow);
+    /* box-shadow: var(--box-shadow); */
     border: .1rem solid rgba(0, 0, 0, .2);
     border-radius: .5rem;
     position: relative;
@@ -679,11 +679,6 @@ header .icons #menu-bars {
         width: 100%;
     }
 
-    /*header .icons #menu-bars {
-        display: inline;
-        margin-right: 60rem;
-    }*/
-
     header .icons {
         margin-right: 80%;
         display: inline;
@@ -694,8 +689,8 @@ header .icons #menu-bars {
         margin-right: 100%;
     }
 
-    .home .home-slider .slide .content h3 {
-        font-size: 4rem;
+    #search-form #close {
+        right: 150rem;
     }
 
     .home .home-slider .slide {
@@ -705,4 +700,13 @@ header .icons #menu-bars {
         gap: 2rem;
         padding-top: 9rem;
     }
+
+    .review .slide {
+        padding: 2rem;
+        /* box-shadow: var(--box-shadow); */
+        border: .1rem solid rgba(0, 0, 0, .2);
+        border-radius: .5rem;
+        position: relative;
+    }
+
 }
